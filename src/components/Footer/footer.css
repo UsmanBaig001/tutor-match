@@ -1,0 +1,145 @@
+footer {
+  width: 100%;
+  background-image: url(../../assets/Backgrounds/bg_Bottom.png);
+}
+.footer-top {
+  width: 100%;
+  padding: 50px 0;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+.footersec {
+  width: fit-content;
+  height: 230px;
+  padding: 5px;
+  color: #fff;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 15px;
+  line-height: 20px;
+}
+.footersec ul li {
+  list-style: none;
+  font-weight: 600;
+  line-height: 30px;
+  cursor: pointer;
+}
+.footersec ul li:hover {
+  color: var(--red);
+}
+.footer-icon-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+.footer-para {
+  width: 250px;
+  margin: 10px auto;
+}
+.footer-icon {
+  height: 35px;
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #fff;
+  transition-duration: 50ms;
+  &:hover{
+    background-color: var(--red);
+    color: #fff;
+  }
+}
+.footer-icon a {
+  color: var(--dblue);
+}
+.news-input {
+  width: 220px;
+  margin: auto;
+}
+.news-input form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.news-input input {
+  height: 40px;
+  width: 180px;
+  border: none;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+  outline: none;
+  padding-left: 10px;
+}
+.news-input button {
+  height: 42px;
+  width: 100px;
+  border: none;
+  background-color: #fff;
+  border-radius: 3px;
+  background-color: var(--red);
+  transform: translateX(-8px);
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+.stores {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.stores img {
+  width: 100px;
+  cursor: pointer;
+}
+
+.footer-bottom {
+  width: 100%;
+  border-top: 1px solid #fff;
+  margin: auto;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 14px;
+  gap: 10px;
+}
+.footer-bottom img {
+  width: 70px;
+}
+.footer-bottom a:hover {
+  color: var(--red);
+  transform: translateY(-5px);
+}
+@media only screen and (max-width: 650px) {
+  .footer-top {
+    align-items: center;
+    padding: 40px;
+  }
+  .footer-top {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .footer-bottom {
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+  }
+  .footersec {
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+  }
+}

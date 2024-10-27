@@ -1,0 +1,176 @@
+.services {
+  width: 100%;
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/teacher-finder-58df9.appspot.com/o/images%2Fbg.png?alt=media&token=8148e08a-5266-48e3-b0c9-011b84abb276);
+  background-position: center;
+  background-size: cover;
+  padding: 100px 50px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.serv-top {
+  width: 400px;
+  margin: auto 170px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+  align-self: flex-start;
+}
+.serv-top div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+.serv-top div span {
+  color: var(--red);
+  text-transform: uppercase;
+}
+.serv-top h2 {
+  color: var(--red);
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.card-container {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.card {
+  height: 280px;
+  width: 200px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 10px;
+  transition: 0.3s;
+  background-image: url(../../assets/Backgrounds/testmonials2.png);
+  background-position: center;
+  background-size: cover;
+}
+.card:hover {
+  background-image: url(../../assets/Backgrounds/Services.png);
+}
+.card img {
+  height: 60px;
+  width: 60px;
+}
+.card h4 {
+  font-weight: 600;
+  color: black;
+  text-align: center;
+}
+.card p {
+  color: black;
+  text-align: center;
+}
+.barz {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.bar-left,
+.bar-right {
+  background-color: var(--red);
+  height: 4px;
+  width: 30px;
+  border-radius: 5px;
+}
+.bar-right {
+  width: 15px;
+}
+.card-btn {
+  height: 30px;
+  width: 110px;
+  border: none;
+  border-radius: 30px;
+}
+.card-btn:hover {
+  transform: translateY(-5px);
+  color: #fff;
+  background-color: var(--dblue);
+}
+.serv-end {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media only screen and (max-width: 785px) {
+  .serv-top {
+    width: fit-content;
+    margin: auto;
+    align-self: flex-end;
+  }
+  .serv-end {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+  }
+  .serv-end > .discover {
+    align-self: center;
+  }
+  .card-container {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 410px) {
+  .serv-top {
+    width: 100%;
+  }
+  .services {
+    margin-top: 100px;
+    padding: 50px 10px;
+  }
+  .serv-end {
+    width: 90%;
+  }
+}
+.arrow2 {
+  height: 200px;
+  width: 100px;
+  position: absolute;
+  top: 1860px;
+}
+@media only screen and (max-width: 1225px) {
+  .arrow2 {
+    top: 2100px;
+  }
+}
+@media only screen and (max-width: 749px) {
+  .arrow2 {
+    top: 2450px;
+  }
+}
+@media only screen and (max-width: 539px) {
+  .arrow2 {
+    top: 3000px;
+  }
+}
+@media only screen and (max-width: 539px) {
+  .card {
+    width: 90%;
+    padding: 20px;
+  }
+  .arrow2 {
+    display: none;
+  }
+}

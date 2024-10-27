@@ -1,0 +1,240 @@
+.testimonial {
+  width: 100%;
+  background-image: url(../../assets/Backgrounds/BG_Test.png);
+  background-position: center;
+  background-size: cover;
+  padding: 30px;
+}
+.test-top {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  gap: 50px;
+}
+.test-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.test-left span {
+  color: var(--red);
+}
+.test-left h2 {
+  font-weight: 600;
+  font-size: 29px;
+}
+.test-box {
+  align-self: flex-start;
+}
+.test-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.border {
+  height: 50px;
+  border-left: 1px solid gray;
+}
+.right-content {
+  width: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  color: #fff;
+}
+.right-content h3 {
+  font-size: 30px;
+  font-weight: 600;
+}
+.right-content span {
+  color: var(--red);
+}
+
+.slider-container {
+  width: 80%;
+  padding: 20px;
+  margin: auto;
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  overflow: hidden;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.slider-card {
+  width: 300px;
+  border-radius: 6px;
+  background-image: url(../../assets/Backgrounds/testmonials2.png);
+  background-position: center;
+  background-size: cover;
+  color: var(--dblue);
+  padding: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+.slider-card:hover {
+  background-image: url(../../assets/Backgrounds/testmonials.png);
+  color: #fff;
+  .top-content p {
+    color: #fff;
+  }
+}
+.test-card-top {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-start;
+}
+.test-imgs {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.test-card-img {
+  height: 60px;
+  width: 60px;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  overflow: hidden;
+}
+.test-card-img img {
+  height: 100%;
+  width: 100%;
+}
+
+.test-comma {
+  height: 30px;
+  width: 30px;
+  border-radius: 30px;
+  border: 2px solid #fff;
+  align-self: flex-end;
+  transform: translateX(-20px);
+  background-image: url(../../assets/Quo1.png);
+  background-position: center;
+  background-size: cover;
+}
+.top-content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 5px;
+  transform: translateX(-20px);
+}
+.top-content p {
+  font-size: 14px;
+  color: var(--red);
+}
+.test-card-para {
+  font-size: 15px;
+  line-height: 20px;
+}
+.test-last {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.comma-img {
+  height: 45px;
+  width: 45px;
+  background-image: url(../../assets/Quo5.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: translateY(-13px);
+}
+.slider-handle {
+  margin: 30px auto;
+  width: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+.slider-btn {
+  border: none;
+  height: 10px;
+  width: 10px;
+  border-radius: 5px;
+  background-color: var(--red);
+  margin-bottom: 50px;
+}
+.slider-btn-dash {
+  width: 20px;
+  height: 2px;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+
+.arrow3 {
+  height: 160px;
+  width: 100px;
+  transform: translateY(-50px);
+  float: right;
+}
+/* ========================= Media Quaries =============================== */
+@media only screen and (max-width: 950px) {
+  .testimonial {
+    padding: 0;
+  }
+  .test-top {
+    width: 100%;
+  }
+  .test-left {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 740px) {
+  .test-top {
+    flex-direction: column;
+  }
+  .test-box {
+    align-self: center;
+  }
+  .test-left h2 {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .slider-card {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 430px) {
+  .slider-container {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 539px) {
+  .slider-container {
+    width: 90%;
+  }
+  .slider-card {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .slider-container {
+    width: 100%;
+  }
+}

@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  transition: all ease-in-out 0.2s;
+  scroll-behavior: smooth;
+}
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+:root {
+  --dblue: #040d29;
+  --red: #eb2c27;
+  --primary: #ffc0c2;
+}
+::selection {
+  color: red;
+  background: yellow;
+}
+.link {
+  text-decoration: none;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.NavNav {
+  color: #eb2c27;
+}
+
+.modal-typograph {
+  height: 70px;
+  text-align: center;
+  padding: 15px;
+  clip-path: polygon(0% 0%, 100% 0, 100% 70%, 50% 100%, 0 70%);
+  background-color: var(--dblue);
+  color: white;
+}
+.modal-box {
+  backdrop-filter: blur(14000px);
+  border: 1px solid gray;
+  background-color: #ffffffa8;
+}
+.cardImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #eb2c27;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-corner {
+  background: #f1f1f1;
+}

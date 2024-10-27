@@ -1,0 +1,173 @@
+.case {
+  width: 100%;
+  background-image: url(../../assets/Backgrounds/BG_CaseStudy.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  padding: 100px 0;
+}
+.case-top {
+  width: 250px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+}
+.bar-red {
+  width: 30px;
+  height: 2px;
+  background-color: var(--red);
+  border-radius: 10px;
+}
+.case-heading {
+  width: fit-content;
+  margin: auto;
+  text-transform: uppercase;
+  font-size: 18px;
+  text-align: center;
+}
+
+.case-heading h2 span {
+  color: var(--red);
+}
+
+.case-card-continer {
+  width: 90%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 100px;
+}
+/* -------------------------- Card Design ---------------------- */
+.teacherCard {
+  height: 450px;
+  width: 250px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 10px 10px -2px #8080807d;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  &:hover {
+    transition-duration: 50ms;
+    box-shadow: 0 10px 10px 5px #8080807d;
+  }
+  @media (max-width: 1280px) {
+    width: 40%;
+  }
+  @media (max-width: 650px) {
+    width: 80%;
+  }
+  .cardImg {
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    overflow: hidden;
+  }
+  div {
+    text-align: center;
+  }
+  h1 {
+    margin-top: 10px;
+    font-size: 1.8rem;
+  }
+  p {
+    color: gray;
+    margin-top: 10px;
+  }
+  .icons {
+    margin-top: 10px;
+    width: 75%;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    @media (max-width: 1280px) {
+      width: 150px;
+    }
+  }
+  .link {
+    text-decoration: none;
+  }
+  .ico {
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #ff6d6d;
+    background-color: #ffe8e8;
+    &:hover {
+      transition-duration: 50ms;
+      background: #ff6d6d;
+      color: #ffe8e8;
+    }
+  }
+}
+
+/* ------------------------ Card Design End ------------------------- */
+
+@media only screen and (max-width: 730px) {
+  .case-card-continer {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .case-category {
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 579px) {
+  .cate-card {
+    width: 400px;
+  }
+  .case-study-box {
+    height: 200px;
+    width: 400px;
+    transform: translateY(-200px);
+  }
+  .case-study-box:hover {
+    transform: translateY(-320px);
+  }
+  .box-text {
+    transform: translateY(80px);
+    font-size: 19px;
+  }
+  .box-text span {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .cate-card {
+    width: 300px;
+  }
+  .case-study-box {
+    height: 200px;
+    width: 400px;
+    transform: translateY(-90px);
+  }
+  .case-study-box:hover {
+    transform: translateY(-220px);
+  }
+  .box-text {
+    transform: translateY(80px);
+    font-size: 19px;
+  }
+  .box-text span {
+    font-size: 13px;
+  }
+}

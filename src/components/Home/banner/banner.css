@@ -1,0 +1,107 @@
+.banner {
+  position: relative;
+  height: 600px;
+  width: 100%;
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/teacher-finder-58df9.appspot.com/o/images%2Fweb_Banner.png?alt=media&token=a362f9f1-2e06-41af-b55d-815e118e5a18);
+  background-position: center;
+  background-size: cover;
+}
+
+.banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Adjust the opacity here (0.5 is 50% opacity) */
+}
+.banner-heading {
+  width: 400px;
+  padding: 10px;
+  color: #fff;
+  text-shadow: 2px 2px 8px #c0c0c0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  font-size: 25px;
+  position: relative;
+  left: 8vw;
+  top: 150px;
+}
+.banner-heading span {
+  color: var(--red);
+}
+.para {
+  width: 100%;
+  border-left: 3px solid var(--red);
+  padding-left: 10px;
+  font-size: 15px;
+  margin-left: 15px;
+  text-transform: uppercase;
+  line-height: 25px;
+}
+.discover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  align-self: flex-start;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 960px) {
+  .banner {
+    height: 92vh;
+  }
+  .banner-heading {
+    margin: auto;
+    left: 30px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .banner-heading {
+    text-align: center;
+    left: 4vw;
+  }
+  .discover {
+    align-self: center;
+  }
+}
+@media only screen and (max-width: 535px) {
+  .banner {
+    height: 90vh;
+  }
+  .banner-heading {
+    width: 300px;
+  }
+  .banner-heading h1 {
+    font-size: 35px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .banner {
+    height: 90vh;
+  }
+  .banner-heading {
+    left: auto;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .banner-heading {
+    width: 98vw;
+  }
+  .para {
+    width: 100%;
+    margin: auto;
+  }
+}

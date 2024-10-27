@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4044f2af.css",
+    "main.js": "/static/js/main.52c65265.js",
+    "static/media/bg.png": "/static/media/bg.868556f782f140afc6d5.png",
+    "static/media/web_Banner.png": "/static/media/web_Banner.873a53cdfcb3b9f57d55.png",
+    "static/media/About.png": "/static/media/About.df40d85ef45e327940f1.png",
+    "static/media/person.jpg": "/static/media/person.632bad63e0725fd2238b.jpg",
+    "static/media/PngItem_4042710.png": "/static/media/PngItem_4042710.9e4c76f7422c0a4d85b4.png",
+    "static/media/kindpng_415494.png": "/static/media/kindpng_415494.b26a01343cc00f6ada65.png",
+    "static/media/BG_CaseStudy.png": "/static/media/BG_CaseStudy.8b74af03b24787814a84.png",
+    "static/media/bg_Bottom.png": "/static/media/bg_Bottom.812a34f996cbb6017a6c.png",
+    "static/media/Course2.png": "/static/media/Course2.d35b741fbd893c467fd7.png",
+    "static/media/Course.png": "/static/media/Course.1e9bd9c2365fcb8058fa.png",
+    "static/media/Course1.png": "/static/media/Course1.0d0fee253eac7f64c14e.png",
+    "static/media/BG_Test.png": "/static/media/BG_Test.a83f8d8f9393fcc323ba.png",
+    "static/media/about-bg.png": "/static/media/about-bg.87df59440fb8a2273e7b.png",
+    "static/media/Services.png": "/static/media/Services.76b8227819a41f554f71.png",
+    "static/media/testmonials.png": "/static/media/testmonials.b9b5535dc786e320a2d1.png",
+    "static/media/ICON10.png": "/static/media/ICON10.8b7fa45d9e5176a4ed07.png",
+    "static/media/ICON7.png": "/static/media/ICON7.2f665a48ab68b39bf9ec.png",
+    "static/media/ICON5.png": "/static/media/ICON5.3f8d41ab987665ce6e5e.png",
+    "static/media/ICON3.png": "/static/media/ICON3.666b1bfb20089485f6b6.png",
+    "static/media/testmonials2.png": "/static/media/testmonials2.1c1406ec66e547933888.png",
+    "static/media/Logo1.jpg": "/static/media/Logo1.3cf98d436448a41d3aab.jpg",
+    "static/media/ICON1.png": "/static/media/ICON1.fb8cef45a34146cb95dc.png",
+    "static/media/Quo1.png": "/static/media/Quo1.f70a2f595fc839febb30.png",
+    "static/media/Bullets1.png": "/static/media/Bullets1.d047643149b509e900a4.png",
+    "static/media/Blog2.png": "/static/media/Blog2.5df4f88bdd8f25989a59.png",
+    "static/media/Blog1.png": "/static/media/Blog1.4bef1422caae9ec1cb3a.png",
+    "static/media/Playstore.png": "/static/media/Playstore.dbca62443429779a1f23.png",
+    "static/media/Logo1.svg": "/static/media/Logo1.20a892c770c86a8abe2e56e62ec3e297.svg",
+    "index.html": "/index.html",
+    "main.4044f2af.css.map": "/static/css/main.4044f2af.css.map",
+    "main.52c65265.js.map": "/static/js/main.52c65265.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4044f2af.css",
+    "static/js/main.52c65265.js"
+  ]
+}
