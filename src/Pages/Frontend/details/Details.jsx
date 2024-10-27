@@ -1,5 +1,6 @@
 import React from "react";
 import UseDetails from "./useDetails";
+import { Link } from "react-router-dom";
 
 function Details() {
   const { data } = UseDetails();
@@ -97,8 +98,12 @@ function Details() {
             <div style={detailItemStyle}>
               <div style={labelStyle}>Enrolled Courses</div>
               <div>
-                {data?.enrolledCourses.map((item, i) => {
-                  return <div key={i}>{item.name}</div>;
+                {data?.enrolledCourses?.map((item, i) => {
+                  return (
+                    <Link to={`/courseDetails/${item?.uid}`} key={i}>
+                      {item?.name}
+                    </Link>
+                  );
                 })}
               </div>
             </div>
