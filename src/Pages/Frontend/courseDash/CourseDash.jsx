@@ -38,6 +38,7 @@ function CourseDash() {
   } = UseCourseDash();
   console.log("studentsData", item?.students);
   const { user } = useAuthContext();
+  console.log("user", user?.role);
   const location = useLocation();
   const courseId = location?.state?.item?.uid;
   const DrawerList = (
@@ -158,8 +159,22 @@ function CourseDash() {
             )}
           </div>
         )}
-        {selectedIndex === 3 && (
+        {user?.role === "Teacher" && selectedIndex === 3 && (
           <AddResults studentsData={item?.students} currentUser={user} />
+        )}
+        {user?.role === "Student" && selectedIndex === 3 && (
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              height: "60vh",
+            }}
+          >
+            <h2 style={{ color: "tomato" }}>
+              Only teachers can add results. Please ask the teacher to do it.
+            </h2>
+          </div>
         )}
         {selectedIndex === 4 && <ViewResults students={item?.students} />}
       </Box>
